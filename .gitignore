@@ -1,0 +1,39 @@
+# --- Datos crudos (no se versiona el JSONL de 332MB) ---
+MLA_100k.jsonlines
+
+# --- Artefactos de modelo (regenerables con `make train`) ---
+models/*.pkl
+models/*.joblib
+
+# --- Optuna trials (puede crecer mucho) ---
+reports/optuna_study.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# --- Virtualenv / lockfiles locales ---
+.venv/
+venv/
+.python-version
+uv.lock
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Cowork local outputs ---
+local_*/

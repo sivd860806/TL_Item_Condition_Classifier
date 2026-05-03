@@ -1,0 +1,58 @@
+[project]
+name = "tl-item-condition-classifier"
+version = "0.1.0"
+description = "Item Condition Classifier (new/used) — Technical Assessment LATAM E-commerce Scraping Team"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Sergio Iván Villamizar Delgado" }
+]
+license = { text = "MIT" }
+
+dependencies = [
+    # Core ML
+    "lightgbm>=4.5.0",
+    "xgboost>=2.1.0",
+    "scikit-learn>=1.5.0",
+    # Data
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    # Tuning & interpretability
+    "optuna>=4.0.0",
+    "shap>=0.46.0",
+    # Stats (for distribution shift checks)
+    "scipy>=1.13.0",
+    # Plotting
+    "matplotlib>=3.9.0",
+    "seaborn>=0.13.0",
+    # Notebooks
+    "jupyter>=1.0.0",
+    "ipykernel>=6.29.0",
+    # Serialization
+    "joblib>=1.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "ruff>=0.6.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B"]
+ignore = ["E501"]  # line length handled by formatter
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
