@@ -38,7 +38,13 @@ from ..config import (
 )
 from ..data import load_data
 from ..eval.metrics import metrics_report, print_metrics
-from ..features import build_preprocessor, compute_ref_date, flatten_records
+from ..features import (
+    CATEGORICAL_COLS,
+    NUMERIC_COLS,
+    build_preprocessor,
+    compute_ref_date,
+    flatten_records,
+)
 
 
 def _y_to_int(y: list[str]) -> np.ndarray:
@@ -52,8 +58,19 @@ def _y_to_str(y_int: np.ndarray) -> list[str]:
 def _train_eval(
     df_tr, df_va, y_tr, y_va, w_tr, best_params: dict, label: str,
 ):
-    """Entrena LightGBM con los mejores params sobre (df_tr, df_va) y reporta."""
-    pre = build_preprocessor(scale_numeric=False)
+    """Entrena LightGBM con los mejores params sobre (df_tr, df_va) y reporta.
+
+    El preprocessor se construye usando solo las columnas que existen en df_tr,
+    para soportar ablaciones que dropean columnas (e.g. listing_type_id).
+    """
+    cols_present = set(df_tr.columns)
+    cat_cols_used = [c for c in CATEGORICAL_COLS if c in cols_present]
+    num_cols_used = [c for c in NUMERIC_COLS if c in cols_present]
+    pre = build_preprocessor(
+        scale_numeric=False,
+        numeric_cols=num_cols_used,
+        categorical_cols=cat_cols_used,
+    )
     X_tr = pre.fit_transform(df_tr)
     X_va = pre.transform(df_va)
 

@@ -241,6 +241,8 @@ def build_preprocessor(
     *,
     scale_numeric: bool = True,
     text_max_features: int = 20_000,
+    numeric_cols: list[str] | None = None,
+    categorical_cols: list[str] | None = None,
 ) -> ColumnTransformer:
     """Construye el ColumnTransformer con las tres ramas estándar.
 
@@ -250,7 +252,16 @@ def build_preprocessor(
         True para LR (necesita features escaladas), False para GBDT (invariante).
     text_max_features : int
         Cap del vocabulario de TF-IDF char_wb. 20k es el sweet spot identificado.
+    numeric_cols : list[str], opcional
+        Subset de columnas numéricas a usar. Si None, usa NUMERIC_COLS completo.
+        Útil para ablaciones que quieren dropear ciertas columnas.
+    categorical_cols : list[str], opcional
+        Subset de columnas categóricas a usar. Si None, usa CATEGORICAL_COLS completo.
+        Útil para ablaciones (e.g. dropear `listing_type_id` para el experimento P1.6).
     """
+    cols_num = list(numeric_cols) if numeric_cols is not None else list(NUMERIC_COLS)
+    cols_cat = list(categorical_cols) if categorical_cols is not None else list(CATEGORICAL_COLS)
+
     # Rama numérica
     numeric_steps = [
         ("imputer", SimpleImputer(strategy="median", add_indicator=False)),
@@ -284,8 +295,8 @@ def build_preprocessor(
 
     pre = ColumnTransformer(
         transformers=[
-            ("num", numeric_pipe, list(NUMERIC_COLS)),
-            ("cat", categorical_pipe, list(CATEGORICAL_COLS)),
+            ("num", numeric_pipe, cols_num),
+            ("cat", categorical_pipe, cols_cat),
             ("txt", text_pipe, TEXT_COL),
         ],
         remainder="drop",
