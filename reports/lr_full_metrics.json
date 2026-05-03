@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.8620555555555556,
+  "f05_new": 0.9080765395755187,
+  "precision_new": 0.9429310982373967,
+  "recall_new": 0.7911065149948294,
+  "recall_used": 0.9444177671068428,
+  "f1_macro": 0.862035504289696,
+  "expected_cost_3to1": 0.18938888888888888,
+  "confusion_matrix": {
+    "TN_used_used": 7867,
+    "FP_used_pred_new": 463,
+    "FN_new_pred_used": 2020,
+    "TP_new_new": 7650
+  },
+  "fit_seconds": 29.039681673049927,
+  "n_train": 72000,
+  "n_val": 18000
+}
