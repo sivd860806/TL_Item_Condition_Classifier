@@ -1,0 +1,28 @@
+{
+  "accuracy": 0.8998888888888888,
+  "f05_new": 0.9350962632561103,
+  "precision_new": 0.9591503267973857,
+  "recall_new": 0.8498448810754912,
+  "recall_used": 0.957983193277311,
+  "f1_macro": 0.8998713836872148,
+  "expected_cost_3to1": 0.139,
+  "confusion_matrix": {
+    "TN_used_used": 7980,
+    "FP_used_pred_new": 350,
+    "FN_new_pred_used": 1452,
+    "TP_new_new": 8218
+  },
+  "best_iter": 1866,
+  "best_params": {
+    "learning_rate": 0.030710573677773714,
+    "num_leaves": 230,
+    "max_depth": 10,
+    "min_child_samples": 29,
+    "feature_fraction": 0.6624074561769746,
+    "bagging_fraction": 0.662397808134481,
+    "reg_alpha": 3.3323645788192616e-08,
+    "reg_lambda": 0.6245760287469893
+  },
+  "n_trials_completed": 4,
+  "fit_seconds_total": 2410.0081803798676
+}
