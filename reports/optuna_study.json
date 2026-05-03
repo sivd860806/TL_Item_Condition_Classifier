@@ -1,0 +1,76 @@
+{
+  "best_value": 0.9350962632561103,
+  "best_params": {
+    "learning_rate": 0.030710573677773714,
+    "num_leaves": 230,
+    "max_depth": 10,
+    "min_child_samples": 29,
+    "feature_fraction": 0.6624074561769746,
+    "bagging_fraction": 0.662397808134481,
+    "reg_alpha": 3.3323645788192616e-08,
+    "reg_lambda": 0.6245760287469893
+  },
+  "n_trials": 4,
+  "trials": [
+    {
+      "number": 0,
+      "value": 0.9350962632561103,
+      "params": {
+        "learning_rate": 0.030710573677773714,
+        "num_leaves": 230,
+        "max_depth": 10,
+        "min_child_samples": 29,
+        "feature_fraction": 0.6624074561769746,
+        "bagging_fraction": 0.662397808134481,
+        "reg_alpha": 3.3323645788192616e-08,
+        "reg_lambda": 0.6245760287469893
+      },
+      "duration_s": 813.795988
+    },
+    {
+      "number": 1,
+      "value": 0.9311111111111111,
+      "params": {
+        "learning_rate": 0.06054365855469246,
+        "num_leaves": 137,
+        "max_depth": 5,
+        "min_child_samples": 92,
+        "feature_fraction": 0.9329770563201687,
+        "bagging_fraction": 0.6849356442713105,
+        "reg_alpha": 4.329370014459266e-07,
+        "reg_lambda": 4.4734294104626844e-07
+      },
+      "duration_s": 174.232935
+    },
+    {
+      "number": 2,
+      "value": 0.9335129657777164,
+      "params": {
+        "learning_rate": 0.024878734419814436,
+        "num_leaves": 93,
+        "max_depth": 8,
+        "min_child_samples": 11,
+        "feature_fraction": 0.8447411578889518,
+        "bagging_fraction": 0.6557975442608167,
+        "reg_alpha": 4.258943089524393e-06,
+        "reg_lambda": 1.9826980964985924e-05
+      },
+      "duration_s": 546.452026
+    },
+    {
+      "number": 3,
+      "value": 0.9340202374901816,
+      "params": {
+        "learning_rate": 0.03920673972242137,
+        "num_leaves": 162,
+        "max_depth": 6,
+        "min_child_samples": 22,
+        "feature_fraction": 0.836965827544817,
+        "bagging_fraction": 0.6185801650879991,
+        "reg_alpha": 0.0029369981104377003,
+        "reg_lambda": 3.425445902633376e-07
+      },
+      "duration_s": 348.876454
+    }
+  ]
+}

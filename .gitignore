@@ -5,8 +5,6 @@ MLA_100k.jsonlines
 models/*.pkl
 models/*.joblib
 
-# --- Optuna trials (puede crecer mucho) ---
-reports/optuna_study.json
 
 # --- Python ---
 __pycache__/
