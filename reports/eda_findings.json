@@ -1,0 +1,236 @@
+{
+  "A": {
+    "train_size": 90000,
+    "test_size": 10000,
+    "train_balance": {
+      "new": 48352,
+      "used": 41648
+    },
+    "test_balance": {
+      "used": 4594,
+      "new": 5406
+    },
+    "pct_new_train": 53.724444444444444,
+    "pct_used_train": 46.275555555555556,
+    "pct_new_test": 54.059999999999995,
+    "pct_used_test": 45.94,
+    "null_top": [
+      [
+        "listing_source",
+        1.0
+      ],
+      [
+        "coverage_areas",
+        1.0
+      ],
+      [
+        "differential_pricing",
+        1.0
+      ],
+      [
+        "subtitle",
+        1.0
+      ],
+      [
+        "catalog_product_id",
+        0.9999222222222223
+      ],
+      [
+        "original_price",
+        0.9985555555555555
+      ],
+      [
+        "deal_ids",
+        0.9975888888888889
+      ],
+      [
+        "official_store_id",
+        0.9917222222222222
+      ],
+      [
+        "sub_status",
+        0.9901
+      ],
+      [
+        "seller_contact",
+        0.9779777777777777
+      ],
+      [
+        "location",
+        0.9779777777777777
+      ],
+      [
+        "video_id",
+        0.9702666666666667
+      ],
+      [
+        "variations",
+        0.9180666666666667
+      ],
+      [
+        "attributes",
+        0.8761111111111111
+      ],
+      [
+        "warranty",
+        0.6084111111111111
+      ]
+    ]
+  },
+  "B": {
+    "ks_log_price": {
+      "D": 0.012177777777777843,
+      "p": 0.13742361702918193
+    },
+    "chi2_categorical": {
+      "listing_type_id": {
+        "chi2": 14.641221874638077,
+        "dof": 6,
+        "p": 0.023238474134628363
+      },
+      "buying_mode": {
+        "chi2": 1.5095157028711195,
+        "dof": 2,
+        "p": 0.4701244409070333
+      },
+      "currency_id": {
+        "chi2": 0.6629791584559181,
+        "dof": 1,
+        "p": 0.4155101544036952
+      },
+      "status": {
+        "chi2": 2.6317900961741985,
+        "dof": 3,
+        "p": 0.4519435696576678
+      }
+    },
+    "chi2_class_balance": {
+      "chi2": 0.3942672256509311,
+      "p": 0.5300648520509015
+    }
+  },
+  "C": {
+    "label_anomalies": {
+      "none_train": 0,
+      "none_test": 0,
+      "other_train": 0
+    },
+    "inconsistent_qty": 0,
+    "price_anomalies": {
+      "zero_price": 0,
+      "very_low": 406
+    },
+    "item_condition_in_attributes": 0,
+    "_note": "match estricto sobre id == ITEM_CONDITION; los 1405 hits del primer run fueron falsos positivos por 'condici' substring que capturaba 'aire acondicionado'"
+  },
+  "D": {
+    "permalink_leakage": {
+      "usado": 516,
+      "nuevo": 3231
+    },
+    "title_used_keywords": {
+      "uso": 610,
+      "como nuevo": 194,
+      "usado": 516,
+      "detalle": 101,
+      "permuta": 30,
+      "permuto": 171,
+      "negociable": 1,
+      "estado:": 1
+    },
+    "title_new_keywords": {
+      "en caja": 233,
+      "sellado": 194,
+      "0km": 110,
+      "nuevo sin uso": 20
+    },
+    "listing_type_x_condition": {
+      "bronze": {
+        "total": 56904,
+        "new": 35410,
+        "used": 21494,
+        "pct_used": 37.772388584282304
+      },
+      "free": {
+        "total": 19260,
+        "new": 1428,
+        "used": 17832,
+        "pct_used": 92.58566978193147
+      },
+      "silver": {
+        "total": 8195,
+        "new": 6575,
+        "used": 1620,
+        "pct_used": 19.768151311775473
+      },
+      "gold_special": {
+        "total": 2693,
+        "new": 2641,
+        "used": 52,
+        "pct_used": 1.9309320460453028
+      },
+      "gold": {
+        "total": 2170,
+        "new": 1869,
+        "used": 301,
+        "pct_used": 13.870967741935484
+      },
+      "gold_premium": {
+        "total": 765,
+        "new": 416,
+        "used": 349,
+        "pct_used": 45.62091503267974
+      },
+      "gold_pro": {
+        "total": 13,
+        "new": 13,
+        "used": 0,
+        "pct_used": 0.0
+      }
+    },
+    "warranty_by_class": {
+      "new": {
+        "with_warranty": 21877,
+        "total": 48352,
+        "pct": 45.245284579748514
+      },
+      "used": {
+        "with_warranty": 13366,
+        "total": 41648,
+        "pct": 32.09277756434883
+      }
+    },
+    "sold_quantity_by_class": {
+      "new": {
+        "mean": 4.2493175049636,
+        "median": 0.0
+      },
+      "used": {
+        "mean": 0.0975076834421821,
+        "median": 0.0
+      }
+    },
+    "tags_top10": {
+      "dragged_bids_and_visits": {
+        "total": 66516,
+        "pct_used": 46.366287810451624
+      },
+      "good_quality_thumbnail": {
+        "total": 1537,
+        "pct_used": 11.320754716981133
+      },
+      "dragged_visits": {
+        "total": 723,
+        "pct_used": 74.96542185338866
+      },
+      "free_relist": {
+        "total": 259,
+        "pct_used": 96.13899613899613
+      },
+      "poor_quality_thumbnail": {
+        "total": 13,
+        "pct_used": 0.0
+      }
+    }
+  }
+}
