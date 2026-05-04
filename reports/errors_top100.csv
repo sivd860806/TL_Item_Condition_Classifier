@@ -1,0 +1,101 @@
+title,category_id,listing_type_id,price,n_pictures,has_warranty,condition_real,proba_new,y_pred,len_title,correct,error_type,rank_position
+50 Suspensores Para Short De Baño Nido De Abeja,MLA26536,bronze,225.0,3,False,used,0.995604045398903,new,47,False,FP,1
+50 Suspensores Para Short De Baño Nido De Abeja,MLA26536,bronze,225.0,3,False,used,0.9945332926745805,new,47,False,FP,2
+Joystick Wireless Xbox 360 Original Inalambrico,MLA58424,gold,449.99,1,True,used,0.9939785536069172,new,47,False,FP,3
+Oximetro De Pulso Nellcor Adulto N40,MLA48872,bronze,1350.0,4,True,used,0.9938717582803183,new,36,False,FP,4
+Cambio De Válvula A Tubo De Oxigeno - Co2 - Atal - Argon,MLA1893,silver,350.0,4,False,used,0.9921360253592663,new,56,False,FP,5
+Impresora Termica Tickeadora Comandera Epson Tm T85 Rs232usb,MLA14437,bronze,2050.0,2,True,used,0.9903441563098233,new,60,False,FP,6
+Servidores Y Rack.gran Variedad+cantidad:insupebales,MLA1710,silver,800.0,6,True,used,0.9879527389409934,new,52,False,FP,7
+Avg Pc Tuneup 2015 +pc+maximo Rendimiento+ Envio Gratis!,MLA1735,silver,89.99,1,True,used,0.9864903031149159,new,56,False,FP,8
+"Reguladores,cdi,tci,ecu,vts,modulos,bobinas,rectificado,trim",MLA22282,bronze,300.0,6,True,used,0.9850198909417783,new,60,False,FP,9
+"Vestido Largo De Fiesta, Esta Nuevo",MLA64280,bronze,1500.0,2,False,used,0.9842722129738143,new,35,False,FP,10
+Pelotas Para Perros Juguetones  ( En Pack De 12 Pelotas ),MLA370528,bronze,39.98,1,False,used,0.9838731721611608,new,57,False,FP,11
+Tablero Instrumental Renault Kangoo Clio Megane Scenic,MLA45777,bronze,2500.0,2,False,used,0.9829345144205567,new,54,False,FP,12
+Aceite De Ricino - Sin Abrir Con Cajita Incluida -,MLA1383,bronze,30.0,3,False,used,0.977513067615507,new,50,False,FP,13
+Zapatillas Blancas De Lona Mujer,MLA116870,bronze,280.0,4,False,used,0.9773866783944725,new,32,False,FP,14
+Collar Con Piedras De Los Siete Chakras E Imanes,MLA26979,silver,450.0,6,True,used,0.9759313831656666,new,48,False,FP,15
+¡¡¡¡ Preciosas !!!!!  Escultura En Cerámica ¡¡¡¡miralas!!!!!,MLA34375,bronze,1499.0,6,False,used,0.9698880215158676,new,60,False,FP,16
+Leica. Vendo Carrete De 35mm Para Cualquier Modelo De Leica.,MLA1914,bronze,150.0,3,False,used,0.9669900622242485,new,60,False,FP,17
+Milagro Para El Acúfeno - Thomas Coleman - Libro Digital,MLA41183,bronze,29.0,2,False,used,0.9666270733624932,new,56,False,FP,18
+Gabinetes De Pc Negros  En San Miguel,MLA72660,bronze,190.0,5,True,used,0.9645872920313703,new,37,False,FP,19
+2gb Mac Mini Macbook Macbook Pro Imac Instalación Gratis,MLA57587,silver,899.0,1,True,used,0.963039499920984,new,56,False,FP,20
+Ana Karenina - Leon Tolstoi - Libro Digital,MLA2044,bronze,18.23,1,False,used,0.9629550053642308,new,43,False,FP,21
+Toldo Fijo En Caño Y Lona Plastica,MLA373709,bronze,1800.0,3,False,used,0.9613479470202337,new,34,False,FP,22
+Volver A Empezar   Paola C. Alvarez            Libro Digital,MLA41289,bronze,25.0,1,True,used,0.9606967072539755,new,60,False,FP,23
+Carteles Enlozados De Calle Originales Coleccion Ii,MLA6095,bronze,550.0,6,True,used,0.9601287565097127,new,51,False,FP,24
+Estante Organizador De Baño Hierro Forjado Pátina Blanco,MLA1643,bronze,660.0,1,False,used,0.9575599609386372,new,56,False,FP,25
+Fuente De Acero Inoxidable / Uso Comestible 61 Cm X 60 Cm,MLA5156,bronze,400.0,4,False,used,0.9571390814653932,new,57,False,FP,26
+Cuchillo Daga Acero Carbón Casco Yelmo Solingen Con Vaina,MLA10267,silver,2650.0,6,True,used,0.9535244746217133,new,57,False,FP,27
+Llave Termica ( Termomagnetica) Bipolar Abb Tubio 16amp,MLA30198,silver,60.0,2,False,used,0.950277935338753,new,55,False,FP,28
+Remeras Estampadas Desiderata/clara Ibarguren Talle3 Divinas,MLA119352,silver,380.0,5,False,used,0.9493281351661785,new,60,False,FP,29
+"Una Guerra Total: Paraguay, 1864-1870 - Capdevila - Historia",MLA41175,bronze,200.0,1,False,used,0.9485651592708177,new,60,False,FP,30
+Star Wars - Episode I - Episodio 1,MLA12167,bronze,130.0,4,False,used,0.9481461592860746,new,34,False,FP,31
+Tubo Para Lampara Kerosen Farol Miniatura.,MLA22080,bronze,100.0,2,False,used,0.9459548038815655,new,42,False,FP,32
+Grenada Grenadines Alexander Graham Bell 2 Valores Mint,MLA31893,bronze,9.0,1,True,used,0.9435243463064079,new,55,False,FP,33
+Sony Vegas Pro 10 Pc 32 - 64 Bits + Envio Bonificado,MLA85120,bronze,99.9,1,False,used,0.9427037797797448,new,52,False,FP,34
+Perfil Hierro Angulo Lados Iguales 3 Pulgadas.espesor 3/8,MLA1503,silver,85.0,4,False,used,0.9385956651805735,new,57,False,FP,35
+Banquetas Con Respaldo Años 50 X 2,MLA6656,bronze,1300.0,4,False,used,0.9382820422709345,new,34,False,FP,36
+ Acupuntor  Cadac Sensitron 1600dt 12-220volt !!!,MLA6569,bronze,2700.0,0,False,used,0.9382433763870198,new,49,False,FP,37
+Persiana Veneciana Alum Gris 80cmx160cm (zona Norte),MLA31343,bronze,250.0,1,False,used,0.9373472585959495,new,52,False,FP,38
+Fulltime Dancing 2 Vinilo Nuevo Xenon Farrow A Paris Shannon,MLA2145,bronze,100.0,2,False,used,0.937137056108044,new,60,False,FP,39
+Microfono Inalambrico Videocamara Corbatero,MLA60299,bronze,2500.0,1,False,used,0.9365143229338371,new,43,False,FP,40
+Banco Alto Asiento Tractor,MLA1630,bronze,2000.0,2,False,used,0.9309457510112762,new,26,False,FP,41
+"Dominios .club (ideal Para Boliches, Discotecas, Deportes)",MLA1710,bronze,490.0,2,True,used,0.9306163916860944,new,58,False,FP,42
+Repuestos Epson Tx115- Lanús,MLA14533,silver,100.0,6,False,used,0.9272433619053585,new,28,False,FP,43
+Cajas Para Cirugia De Acero Inox Con Divisiones Y Comunes,MLA48887,bronze,200.0,5,False,used,0.9270375244239286,new,57,False,FP,44
+Credeence Clearwater Revival,MLA2032,bronze,220.0,2,False,used,0.9255962259867299,new,28,False,FP,45
+Artefacto De Embutir Para Cielorraso Para Hqi150w,MLA30207,bronze,60.0,3,False,used,0.9220400832328154,new,49,False,FP,46
+Fundas Celulares Varios Silicona Y Tpu,MLA70521,bronze,10.0,4,False,used,0.9186640902881382,new,38,False,FP,47
+"Camara Canon A75 3,2 Mpx Zoom Optico3x",MLA36533,bronze,499.0,4,False,used,0.9168876652710364,new,38,False,FP,48
+Ril Pelueger Medalist,MLA1361,silver,1000.0,2,False,used,0.9168065313213056,new,21,False,FP,49
+Objetivo Inmersion De Microscopio Meopta - 100 X,MLA48870,bronze,1800.0,1,False,used,0.9165124523117433,new,48,False,FP,50
+Tara Mata: El Yoga La Ciencia Moderna. Usado,MLA1227,bronze,49.0,1,False,new,0.001215975049589513,used,44,False,FN,1
+Sandalias De  Dama,MLA370641,free,100.0,2,False,new,0.003523126510734919,used,18,False,FN,2
+Churchill: Obras Escogidas. Aguilar Tomo 1. Usado,MLA1227,bronze,99.0,1,False,new,0.0038732197900295945,used,49,False,FN,3
+Catalogo Sellos Postales Scott 2009 Digital 1 Dvd Oferton!!!,MLA2457,free,70.0,2,True,new,0.004247587063689951,used,60,False,FN,4
+Lote De Insumos Para El Armador ( Perlados Muy Antiguos),MLA3946,bronze,885.0,4,False,new,0.0049766167220461855,used,56,False,FN,5
+"Revista Ciencia, Docencia Y Tecnología N° 21 ( 2000) Uner",MLA1963,bronze,75.0,3,False,new,0.005224864468907437,used,57,False,FN,6
+Libro Antiguo De Literatura La Celestina 1938 F De Rojas,MLA5569,bronze,127.0,5,True,new,0.005320793397348978,used,56,False,FN,7
+Muy Antiguo Cuello Duro Casa The Brighton Buenos Aires T 39,MLA34224,bronze,290.0,5,True,new,0.00549663032243963,used,59,False,FN,8
+Butacas Peugeot 307 Impecable,MLA4861,free,6600.0,6,False,new,0.005713538291975186,used,29,False,FN,9
+Osprey El Ejercito Frances 1939-1945 Segunda Guerra Mundial,MLA41176,bronze,100.0,6,False,new,0.0057933315240993434,used,59,False,FN,10
+Antigua Coctelera De Plata,MLA34307,silver,2000.0,6,True,new,0.006442627571256699,used,26,False,FN,11
+Los 7  Magnificos Vhs John Sturges Yul Brinner,MLA1228,bronze,59.99,1,False,new,0.006764487012310243,used,46,False,FN,12
+Figuras En Goma Eva Y Centros De Mesa,MLA73719,free,60.0,6,False,new,0.007741267503349581,used,37,False,FN,13
+Game Of Thrones - Temporadas 1-3. Dvd 300,MLA81063,free,60.0,6,True,new,0.007815795305960068,used,41,False,FN,14
+American Girl Revista Catalogo De Compras,MLA6919,bronze,50.0,3,False,new,0.008122612283367496,used,41,False,FN,15
+Ropa Niño Jeans Cheeky Y Mimo T 14,MLA119933,bronze,150.0,5,False,new,0.008191832191514295,used,34,False,FN,16
+La Revista De Cesar Millan- N° 2- El Mejor Año De Sus Vidas,MLA1963,bronze,55.0,3,True,new,0.008602413950526553,used,59,False,FN,17
+Matchbox Hi-tailer Superfast Nº56 1974 Lesney,MLA17494,bronze,59.0,5,False,new,0.008940721319831963,used,45,False,FN,18
+La Influencia Del Arrabal En La Poesia Culta Argentina,MLA41064,bronze,40.0,1,True,new,0.008978386874732559,used,54,False,FN,19
+Adorno Niña Vaquita De San Antonio,MLA3530,free,140.0,2,False,new,0.0089823645952015,used,34,False,FN,20
+Fuente Cargador Lenovo 20v,MLA83403,free,350.0,2,False,new,0.009044890537564252,used,26,False,FN,21
+Tapiz De Terciopelo De Turquia,MLA376375,free,1200.0,3,False,new,0.009313860144007532,used,30,False,FN,22
+Bandejas Antiguas Sheffield,MLA35923,silver,1200.0,6,False,new,0.010011937827553052,used,27,False,FN,23
+Intriga En La Calle Arlington Jeff Bridges Vhs Importado Usa,MLA15340,bronze,45.0,1,False,new,0.010239819224386978,used,60,False,FN,24
+"La Comida Que Salvara Su Vida, E. Moller, Grijalbo, 1998 *g",MLA7251,bronze,90.0,6,True,new,0.011533087099209216,used,59,False,FN,25
+Pc Hp Pavilion 11-n010la X360 (energy Star). Baja De Precio,MLA54244,free,13000.0,5,True,new,0.012004688186846494,used,59,False,FN,26
+Camisa Hombre Escocesa Aeropostale Importada Usa,MLA64657,free,350.0,3,False,new,0.012104854413738075,used,48,False,FN,27
+Victor Massuh. Agonias De La Razón. Edit.sudamericana,MLA1227,bronze,49.0,1,False,new,0.012645963118535984,used,53,False,FN,28
+Push Race Gel 2 Caja X 12,MLA1247,free,240.0,1,False,new,0.012872869743066812,used,25,False,FN,29
+Las Fuerzas Morales - José Ingenieros - Ed Gradifco,MLA41287,bronze,45.0,2,True,new,0.013038803313931105,used,51,False,FN,30
+Esmalte Efecto Gliter Color Violeta Natura Tsu Tupperware,MLA29890,free,30.0,2,False,new,0.013114861637411228,used,57,False,FN,31
+"Plug Curvo Violeta Jelly, Consolador 10x2 Cm",MLA73681,free,160.0,1,False,new,0.013759897089010075,used,44,False,FN,32
+Disco Vinilo  De Las Primas - Somos Terribles,MLA15191,bronze,160.0,1,True,new,0.013859202372607737,used,45,False,FN,33
+Microondas Whirpool Con Grill Primera Linea,MLA125710,free,2800.0,4,False,new,0.013893157981168592,used,43,False,FN,34
+"Peru, 50 Soles De Oro, Año 1974  S/c",MLA29825,bronze,49.0,2,True,new,0.014593466412844392,used,36,False,FN,35
+Modem Wifi Zte 300 Mbps,MLA37171,free,320.0,5,False,new,0.015246309216408002,used,23,False,FN,36
+Lote De 3 Peliculas De Jackie Chan,MLA15157,bronze,200.0,3,False,new,0.01534826090844862,used,34,False,FN,37
+Coche Para Bebe Per Perego + Huevito Chicco,MLA73963,free,4499.0,5,False,new,0.015495623174861107,used,43,False,FN,38
+Jorge Luis Borges En El Museo Nacional De Bellas Artes,MLA41057,bronze,100.0,2,True,new,0.015578526712477109,used,54,False,FN,39
+Jimi Hendrix Experience Winterland Limited Edit 180g 8lp,MLA15201,free,3990.0,1,False,new,0.015901504275583084,used,56,False,FN,40
+Alemania (república De Weimar) - Block De 1936 - Ivert Nº 6,MLA2166,bronze,40.0,2,True,new,0.01644873109436903,used,59,False,FN,41
+Afeitadora Philips At759/14,MLA323619,free,900.0,2,False,new,0.016456008916638655,used,27,False,FN,42
+Reproductor Mp3 Mini,MLA52046,free,110.0,3,False,new,0.01694281422202009,used,20,False,FN,43
+Sistema Estomatognático Actis,MLA40510,free,615.0,1,False,new,0.01760470056373522,used,29,False,FN,44
+Cochecito Para Bebe,MLA73964,free,700.0,6,True,new,0.018090985641860468,used,19,False,FN,45
+Llamadores De Angeles En Vidrio,MLA34277,free,150.0,6,False,new,0.01830396839812248,used,31,False,FN,46
+La Personalidad Basica - Mikel Dufrenne - Paidos,MLA3031,bronze,45.0,2,True,new,0.018420178655114076,used,48,False,FN,47
+"Guantes Para Trabajo De Descarne, Pvc, Moteados, Nitrilo.",MLA48877,free,18.0,4,False,new,0.01843725520214832,used,57,False,FN,48
+Dije Papal En Plata 925,MLA6440,free,1.0,1,False,new,0.019470750607959147,used,23,False,FN,49
+Reloj Tommy Hilfiger Para Dama,MLA24477,free,1400.0,6,False,new,0.019692244851381054,used,30,False,FN,50

@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.891,
+  "f05_new": 0.9335192739988344,
+  "precision_new": 0.9636871508379888,
+  "recall_new": 0.8296337402885683,
+  "recall_used": 0.9632128863735306,
+  "f1_macro": 0.890996075858731,
+  "expected_cost_3to1": 0.1428,
+  "confusion_matrix": {
+    "TN_used_used": 4425,
+    "FP_used_pred_new": 169,
+    "FN_new_pred_used": 921,
+    "TP_new_new": 4485
+  },
+  "threshold_used": 0.5600000000000003,
+  "passes_086_threshold": true
+}

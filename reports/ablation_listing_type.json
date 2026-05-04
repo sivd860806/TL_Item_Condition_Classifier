@@ -1,0 +1,45 @@
+{
+  "A_full": {
+    "accuracy": 0.8998888888888888,
+    "f05_new": 0.9350962632561103,
+    "precision_new": 0.9591503267973857,
+    "recall_new": 0.8498448810754912,
+    "recall_used": 0.957983193277311,
+    "f1_macro": 0.8998713836872148,
+    "expected_cost_3to1": 0.139,
+    "confusion_matrix": {
+      "TN_used_used": 7980,
+      "FP_used_pred_new": 350,
+      "FN_new_pred_used": 1452,
+      "TP_new_new": 8218
+    },
+    "fit_seconds": 435.72604298591614,
+    "best_iter": 1866,
+    "n_features": 20272
+  },
+  "B_no_listing_type": {
+    "accuracy": 0.8566111111111111,
+    "f05_new": 0.9063749819303233,
+    "precision_new": 0.945344892574444,
+    "recall_new": 0.778076525336091,
+    "recall_used": 0.9477791116446579,
+    "f1_macro": 0.8565501710558466,
+    "expected_cost_3to1": 0.1917222222222222,
+    "confusion_matrix": {
+      "TN_used_used": 7895,
+      "FP_used_pred_new": 435,
+      "FN_new_pred_used": 2146,
+      "TP_new_new": 7524
+    },
+    "fit_seconds": 499.65812253952026,
+    "best_iter": 2000,
+    "n_features": 20265
+  },
+  "delta": {
+    "accuracy": 0.04327777777777775,
+    "f05_new": 0.028721281325786996,
+    "recall_used": 0.010204081632653073,
+    "expected_cost_3to1": 0.0527222222222222
+  },
+  "verdict_summary": "**Caida intermedia (4.33pp)**: el modelo depende moderadamente de listing_type_id. La feature aporta senal pero el modelo no es solo un proxy del tier; el resto de features hace trabajo."
+}

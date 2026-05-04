@@ -1,0 +1,693 @@
+{
+  "best_threshold": 0.5600000000000003,
+  "best_metrics": {
+    "accuracy": 0.894,
+    "f05_new": 0.9355101092261213,
+    "precision_new": 0.9653477218225419,
+    "recall_new": 0.8325749741468459,
+    "recall_used": 0.9653061224489796,
+    "f1_macro": 0.8939999672839405,
+    "expected_cost_3to1": 0.1381111111111111,
+    "confusion_matrix": {
+      "TN_used_used": 8041,
+      "FP_used_pred_new": 289,
+      "FN_new_pred_used": 1619,
+      "TP_new_new": 8051
+    },
+    "threshold": 0.5600000000000003
+  },
+  "default_metrics_at_0.5": {
+    "accuracy": 0.8998888888888888,
+    "f05_new": 0.9350962632561103,
+    "precision_new": 0.9591503267973857,
+    "recall_new": 0.8498448810754912,
+    "recall_used": 0.957983193277311,
+    "f1_macro": 0.8998713836872148,
+    "expected_cost_3to1": 0.139,
+    "confusion_matrix": {
+      "TN_used_used": 7980,
+      "FP_used_pred_new": 350,
+      "FN_new_pred_used": 1452,
+      "TP_new_new": 8218
+    },
+    "threshold": 0.5000000000000002
+  },
+  "sweep": [
+    {
+      "accuracy": 0.9092222222222223,
+      "f05_new": 0.9217977433123442,
+      "precision_new": 0.9268111323560654,
+      "recall_new": 0.9022750775594622,
+      "recall_used": 0.9172869147659064,
+      "f1_macro": 0.9088917986461418,
+      "expected_cost_3to1": 0.16733333333333333,
+      "confusion_matrix": {
+        "TN_used_used": 7641,
+        "FP_used_pred_new": 689,
+        "FN_new_pred_used": 945,
+        "TP_new_new": 8725
+      },
+      "threshold": 0.3
+    },
+    {
+      "accuracy": 0.9091666666666667,
+      "f05_new": 0.9229284229284229,
+      "precision_new": 0.9288993274260703,
+      "recall_new": 0.8997931747673216,
+      "recall_used": 0.9200480192076831,
+      "f1_macro": 0.9088641832341368,
+      "expected_cost_3to1": 0.16483333333333333,
+      "confusion_matrix": {
+        "TN_used_used": 7664,
+        "FP_used_pred_new": 666,
+        "FN_new_pred_used": 969,
+        "TP_new_new": 8701
+      },
+      "threshold": 0.31
+    },
+    {
+      "accuracy": 0.9093333333333333,
+      "f05_new": 0.9243831763753356,
+      "precision_new": 0.9314083297552598,
+      "recall_new": 0.897311271975181,
+      "recall_used": 0.9232893157262905,
+      "f1_macro": 0.9090604596996239,
+      "expected_cost_3to1": 0.16166666666666665,
+      "confusion_matrix": {
+        "TN_used_used": 7691,
+        "FP_used_pred_new": 639,
+        "FN_new_pred_used": 993,
+        "TP_new_new": 8677
+      },
+      "threshold": 0.32
+    },
+    {
+      "accuracy": 0.9093333333333333,
+      "f05_new": 0.9257158755296837,
+      "precision_new": 0.9338298791018999,
+      "recall_new": 0.8946225439503619,
+      "recall_used": 0.9264105642256902,
+      "f1_macro": 0.9090885582045714,
+      "expected_cost_3to1": 0.15877777777777777,
+      "confusion_matrix": {
+        "TN_used_used": 7717,
+        "FP_used_pred_new": 613,
+        "FN_new_pred_used": 1019,
+        "TP_new_new": 8651
+      },
+      "threshold": 0.33
+    },
+    {
+      "accuracy": 0.9091111111111111,
+      "f05_new": 0.9266898715139015,
+      "precision_new": 0.9357778259926232,
+      "recall_new": 0.892037228541882,
+      "recall_used": 0.9289315726290516,
+      "f1_macro": 0.9088893680798245,
+      "expected_cost_3to1": 0.15666666666666668,
+      "confusion_matrix": {
+        "TN_used_used": 7738,
+        "FP_used_pred_new": 592,
+        "FN_new_pred_used": 1044,
+        "TP_new_new": 8626
+      },
+      "threshold": 0.34
+    },
+    {
+      "accuracy": 0.9090555555555555,
+      "f05_new": 0.9278072559423666,
+      "precision_new": 0.9378611141393219,
+      "recall_new": 0.8896587383660807,
+      "recall_used": 0.9315726290516206,
+      "f1_macro": 0.9088556430675627,
+      "expected_cost_3to1": 0.1542777777777778,
+      "confusion_matrix": {
+        "TN_used_used": 7760,
+        "FP_used_pred_new": 570,
+        "FN_new_pred_used": 1067,
+        "TP_new_new": 8603
+      },
+      "threshold": 0.35000000000000003
+    },
+    {
+      "accuracy": 0.9085,
+      "f05_new": 0.9282097883941322,
+      "precision_new": 0.9390390719054394,
+      "recall_new": 0.8872802481902792,
+      "recall_used": 0.9331332533013206,
+      "f1_macro": 0.9083157120344034,
+      "expected_cost_3to1": 0.15338888888888888,
+      "confusion_matrix": {
+        "TN_used_used": 7773,
+        "FP_used_pred_new": 557,
+        "FN_new_pred_used": 1090,
+        "TP_new_new": 8580
+      },
+      "threshold": 0.36000000000000004
+    },
+    {
+      "accuracy": 0.9085555555555556,
+      "f05_new": 0.9295554300117335,
+      "precision_new": 0.9414612676056338,
+      "recall_new": 0.8847983453981386,
+      "recall_used": 0.9361344537815126,
+      "f1_macro": 0.9083931048638982,
+      "expected_cost_3to1": 0.15055555555555555,
+      "confusion_matrix": {
+        "TN_used_used": 7798,
+        "FP_used_pred_new": 532,
+        "FN_new_pred_used": 1114,
+        "TP_new_new": 8556
+      },
+      "threshold": 0.37000000000000005
+    },
+    {
+      "accuracy": 0.9081666666666667,
+      "f05_new": 0.9302097414206602,
+      "precision_new": 0.9429771245441485,
+      "recall_new": 0.8824198552223371,
+      "recall_used": 0.9380552220888355,
+      "f1_macro": 0.9080199070344458,
+      "expected_cost_3to1": 0.14916666666666667,
+      "confusion_matrix": {
+        "TN_used_used": 7814,
+        "FP_used_pred_new": 516,
+        "FN_new_pred_used": 1137,
+        "TP_new_new": 8533
+      },
+      "threshold": 0.38000000000000006
+    },
+    {
+      "accuracy": 0.9077777777777778,
+      "f05_new": 0.9307614923675808,
+      "precision_new": 0.9443088528954959,
+      "recall_new": 0.8802481902792141,
+      "recall_used": 0.9397358943577431,
+      "f1_macro": 0.9076444163149366,
+      "expected_cost_3to1": 0.148,
+      "confusion_matrix": {
+        "TN_used_used": 7828,
+        "FP_used_pred_new": 502,
+        "FN_new_pred_used": 1158,
+        "TP_new_new": 8512
+      },
+      "threshold": 0.39000000000000007
+    },
+    {
+      "accuracy": 0.9072777777777777,
+      "f05_new": 0.9315297114497783,
+      "precision_new": 0.9461358313817331,
+      "recall_new": 0.8773526370217166,
+      "recall_used": 0.9420168067226891,
+      "f1_macro": 0.907161509316277,
+      "expected_cost_3to1": 0.1463888888888889,
+      "confusion_matrix": {
+        "TN_used_used": 7847,
+        "FP_used_pred_new": 483,
+        "FN_new_pred_used": 1186,
+        "TP_new_new": 8484
+      },
+      "threshold": 0.4000000000000001
+    },
+    {
+      "accuracy": 0.9070555555555555,
+      "f05_new": 0.932390145004187,
+      "precision_new": 0.947910832306486,
+      "recall_new": 0.8750775594622544,
+      "recall_used": 0.9441776710684273,
+      "f1_macro": 0.9069532014925641,
+      "expected_cost_3to1": 0.1446111111111111,
+      "confusion_matrix": {
+        "TN_used_used": 7865,
+        "FP_used_pred_new": 465,
+        "FN_new_pred_used": 1208,
+        "TP_new_new": 8462
+      },
+      "threshold": 0.4100000000000001
+    },
+    {
+      "accuracy": 0.9062777777777777,
+      "f05_new": 0.9328127074023274,
+      "precision_new": 0.9493414387031408,
+      "recall_new": 0.8720785935884178,
+      "recall_used": 0.9459783913565426,
+      "f1_macro": 0.9061892340230474,
+      "expected_cost_3to1": 0.14372222222222222,
+      "confusion_matrix": {
+        "TN_used_used": 7880,
+        "FP_used_pred_new": 450,
+        "FN_new_pred_used": 1237,
+        "TP_new_new": 8433
+      },
+      "threshold": 0.4200000000000001
+    },
+    {
+      "accuracy": 0.9052222222222223,
+      "f05_new": 0.9329883168228866,
+      "precision_new": 0.9505544240778456,
+      "recall_new": 0.8687693898655636,
+      "recall_used": 0.9475390156062425,
+      "f1_macro": 0.9051466721320898,
+      "expected_cost_3to1": 0.14333333333333334,
+      "confusion_matrix": {
+        "TN_used_used": 7893,
+        "FP_used_pred_new": 437,
+        "FN_new_pred_used": 1269,
+        "TP_new_new": 8401
+      },
+      "threshold": 0.4300000000000001
+    },
+    {
+      "accuracy": 0.9046111111111111,
+      "f05_new": 0.9333363040862707,
+      "precision_new": 0.9517210042031126,
+      "recall_new": 0.8663908996897621,
+      "recall_used": 0.9489795918367347,
+      "f1_macro": 0.904545197507695,
+      "expected_cost_3to1": 0.1426111111111111,
+      "confusion_matrix": {
+        "TN_used_used": 7905,
+        "FP_used_pred_new": 425,
+        "FN_new_pred_used": 1292,
+        "TP_new_new": 8378
+      },
+      "threshold": 0.4400000000000001
+    },
+    {
+      "accuracy": 0.9035555555555556,
+      "f05_new": 0.9334600760456274,
+      "precision_new": 0.9528538812785388,
+      "recall_new": 0.8631851085832472,
+      "recall_used": 0.9504201680672268,
+      "f1_macro": 0.9035004853078192,
+      "expected_cost_3to1": 0.14233333333333334,
+      "confusion_matrix": {
+        "TN_used_used": 7917,
+        "FP_used_pred_new": 413,
+        "FN_new_pred_used": 1323,
+        "TP_new_new": 8347
+      },
+      "threshold": 0.4500000000000001
+    },
+    {
+      "accuracy": 0.9029444444444444,
+      "f05_new": 0.9340338587273789,
+      "precision_new": 0.9544568085350464,
+      "recall_new": 0.860392967942089,
+      "recall_used": 0.9523409363745499,
+      "f1_macro": 0.9028995597659462,
+      "expected_cost_3to1": 0.14116666666666666,
+      "confusion_matrix": {
+        "TN_used_used": 7933,
+        "FP_used_pred_new": 397,
+        "FN_new_pred_used": 1350,
+        "TP_new_new": 8320
+      },
+      "threshold": 0.46000000000000013
+    },
+    {
+      "accuracy": 0.903,
+      "f05_new": 0.9350087825969463,
+      "precision_new": 0.9562413634269922,
+      "recall_new": 0.8587383660806618,
+      "recall_used": 0.9543817527010804,
+      "f1_macro": 0.9029624680390271,
+      "expected_cost_3to1": 0.13922222222222222,
+      "confusion_matrix": {
+        "TN_used_used": 7950,
+        "FP_used_pred_new": 380,
+        "FN_new_pred_used": 1366,
+        "TP_new_new": 8304
+      },
+      "threshold": 0.47000000000000014
+    },
+    {
+      "accuracy": 0.9016111111111111,
+      "f05_new": 0.9347452646806202,
+      "precision_new": 0.9569593891010066,
+      "recall_new": 0.8553257497414685,
+      "recall_used": 0.9553421368547419,
+      "f1_macro": 0.9015813519242799,
+      "expected_cost_3to1": 0.13972222222222222,
+      "confusion_matrix": {
+        "TN_used_used": 7958,
+        "FP_used_pred_new": 372,
+        "FN_new_pred_used": 1399,
+        "TP_new_new": 8271
+      },
+      "threshold": 0.48000000000000015
+    },
+    {
+      "accuracy": 0.9002777777777777,
+      "f05_new": 0.9346207960786094,
+      "precision_new": 0.9579020816373996,
+      "recall_new": 0.8518097207859359,
+      "recall_used": 0.9565426170468188,
+      "f1_macro": 0.9002555011985254,
+      "expected_cost_3to1": 0.13994444444444445,
+      "confusion_matrix": {
+        "TN_used_used": 7968,
+        "FP_used_pred_new": 362,
+        "FN_new_pred_used": 1433,
+        "TP_new_new": 8237
+      },
+      "threshold": 0.49000000000000016
+    },
+    {
+      "accuracy": 0.8998888888888888,
+      "f05_new": 0.9350962632561103,
+      "precision_new": 0.9591503267973857,
+      "recall_new": 0.8498448810754912,
+      "recall_used": 0.957983193277311,
+      "f1_macro": 0.8998713836872148,
+      "expected_cost_3to1": 0.139,
+      "confusion_matrix": {
+        "TN_used_used": 7980,
+        "FP_used_pred_new": 350,
+        "FN_new_pred_used": 1452,
+        "TP_new_new": 8218
+      },
+      "threshold": 0.5000000000000002
+    },
+    {
+      "accuracy": 0.8989444444444444,
+      "f05_new": 0.9351737680960862,
+      "precision_new": 0.9601453522447544,
+      "recall_new": 0.847052740434333,
+      "recall_used": 0.9591836734693877,
+      "f1_macro": 0.8989318418066075,
+      "expected_cost_3to1": 0.13883333333333334,
+      "confusion_matrix": {
+        "TN_used_used": 7990,
+        "FP_used_pred_new": 340,
+        "FN_new_pred_used": 1479,
+        "TP_new_new": 8191
+      },
+      "threshold": 0.5100000000000002
+    },
+    {
+      "accuracy": 0.8977222222222222,
+      "f05_new": 0.9349938132991156,
+      "precision_new": 0.9609089838690686,
+      "recall_new": 0.8439503619441572,
+      "recall_used": 0.9601440576230492,
+      "f1_macro": 0.8977138344409483,
+      "expected_cost_3to1": 0.13916666666666666,
+      "confusion_matrix": {
+        "TN_used_used": 7998,
+        "FP_used_pred_new": 332,
+        "FN_new_pred_used": 1509,
+        "TP_new_new": 8161
+      },
+      "threshold": 0.5200000000000002
+    },
+    {
+      "accuracy": 0.8966666666666666,
+      "f05_new": 0.9352418649606481,
+      "precision_new": 0.9623490409661378,
+      "recall_new": 0.8405377456049639,
+      "recall_used": 0.9618247298919568,
+      "f1_macro": 0.8966623749657949,
+      "expected_cost_3to1": 0.13866666666666666,
+      "confusion_matrix": {
+        "TN_used_used": 8012,
+        "FP_used_pred_new": 318,
+        "FN_new_pred_used": 1542,
+        "TP_new_new": 8128
+      },
+      "threshold": 0.5300000000000002
+    },
+    {
+      "accuracy": 0.8957777777777778,
+      "f05_new": 0.9353498037404756,
+      "precision_new": 0.9633769322235434,
+      "recall_new": 0.8378490175801447,
+      "recall_used": 0.9630252100840336,
+      "f1_macro": 0.8957757190265487,
+      "expected_cost_3to1": 0.13844444444444445,
+      "confusion_matrix": {
+        "TN_used_used": 8022,
+        "FP_used_pred_new": 308,
+        "FN_new_pred_used": 1568,
+        "TP_new_new": 8102
+      },
+      "threshold": 0.5400000000000003
+    },
+    {
+      "accuracy": 0.8952222222222223,
+      "f05_new": 0.9354607303188781,
+      "precision_new": 0.9641068447412354,
+      "recall_new": 0.8360910031023785,
+      "recall_used": 0.9638655462184874,
+      "f1_macro": 0.8952212080670016,
+      "expected_cost_3to1": 0.13822222222222222,
+      "confusion_matrix": {
+        "TN_used_used": 8029,
+        "FP_used_pred_new": 301,
+        "FN_new_pred_used": 1585,
+        "TP_new_new": 8085
+      },
+      "threshold": 0.5500000000000003
+    },
+    {
+      "accuracy": 0.894,
+      "f05_new": 0.9355101092261213,
+      "precision_new": 0.9653477218225419,
+      "recall_new": 0.8325749741468459,
+      "recall_used": 0.9653061224489796,
+      "f1_macro": 0.8939999672839405,
+      "expected_cost_3to1": 0.1381111111111111,
+      "confusion_matrix": {
+        "TN_used_used": 8041,
+        "FP_used_pred_new": 289,
+        "FN_new_pred_used": 1619,
+        "TP_new_new": 8051
+      },
+      "threshold": 0.5600000000000003
+    },
+    {
+      "accuracy": 0.8928888888888888,
+      "f05_new": 0.9353868395280511,
+      "precision_new": 0.9661608863198459,
+      "recall_new": 0.8296794208893485,
+      "recall_used": 0.966266506602641,
+      "f1_macro": 0.8928886654096846,
+      "expected_cost_3to1": 0.13833333333333334,
+      "confusion_matrix": {
+        "TN_used_used": 8049,
+        "FP_used_pred_new": 281,
+        "FN_new_pred_used": 1647,
+        "TP_new_new": 8023
+      },
+      "threshold": 0.5700000000000003
+    },
+    {
+      "accuracy": 0.8913888888888889,
+      "f05_new": 0.934940322958109,
+      "precision_new": 0.9667271627344223,
+      "recall_new": 0.8262668045501551,
+      "recall_used": 0.9669867947178872,
+      "f1_macro": 0.8913874725681222,
+      "expected_cost_3to1": 0.13916666666666666,
+      "confusion_matrix": {
+        "TN_used_used": 8055,
+        "FP_used_pred_new": 275,
+        "FN_new_pred_used": 1680,
+        "TP_new_new": 7990
+      },
+      "threshold": 0.5800000000000003
+    },
+    {
+      "accuracy": 0.8897777777777778,
+      "f05_new": 0.9344312361979045,
+      "precision_new": 0.9672908560311284,
+      "recall_new": 0.8226473629782833,
+      "recall_used": 0.9677070828331332,
+      "f1_macro": 0.889773955247411,
+      "expected_cost_3to1": 0.1401111111111111,
+      "confusion_matrix": {
+        "TN_used_used": 8061,
+        "FP_used_pred_new": 269,
+        "FN_new_pred_used": 1715,
+        "TP_new_new": 7955
+      },
+      "threshold": 0.5900000000000003
+    },
+    {
+      "accuracy": 0.8883333333333333,
+      "f05_new": 0.9340659340659341,
+      "precision_new": 0.9679863147605083,
+      "recall_new": 0.81923474663909,
+      "recall_used": 0.968547418967587,
+      "f1_macro": 0.8883259862861841,
+      "expected_cost_3to1": 0.14077777777777778,
+      "confusion_matrix": {
+        "TN_used_used": 8068,
+        "FP_used_pred_new": 262,
+        "FN_new_pred_used": 1748,
+        "TP_new_new": 7922
+      },
+      "threshold": 0.6000000000000003
+    },
+    {
+      "accuracy": 0.8871111111111111,
+      "f05_new": 0.9339930867938823,
+      "precision_new": 0.9690493736182756,
+      "recall_new": 0.8159255429162358,
+      "recall_used": 0.9697478991596639,
+      "f1_macro": 0.8870987951228853,
+      "expected_cost_3to1": 0.1408888888888889,
+      "confusion_matrix": {
+        "TN_used_used": 8078,
+        "FP_used_pred_new": 252,
+        "FN_new_pred_used": 1780,
+        "TP_new_new": 7890
+      },
+      "threshold": 0.6100000000000003
+    },
+    {
+      "accuracy": 0.8853333333333333,
+      "f05_new": 0.9333254100309009,
+      "precision_new": 0.9695061728395061,
+      "recall_new": 0.8120992761116856,
+      "recall_used": 0.9703481392557023,
+      "f1_macro": 0.8853146084653944,
+      "expected_cost_3to1": 0.1421111111111111,
+      "confusion_matrix": {
+        "TN_used_used": 8083,
+        "FP_used_pred_new": 247,
+        "FN_new_pred_used": 1817,
+        "TP_new_new": 7853
+      },
+      "threshold": 0.6200000000000003
+    },
+    {
+      "accuracy": 0.8839444444444444,
+      "f05_new": 0.9332171338522516,
+      "precision_new": 0.9706941512479821,
+      "recall_new": 0.8083764219234747,
+      "recall_used": 0.9716686674669868,
+      "f1_macro": 0.8839169539010984,
+      "expected_cost_3to1": 0.14227777777777778,
+      "confusion_matrix": {
+        "TN_used_used": 8094,
+        "FP_used_pred_new": 236,
+        "FN_new_pred_used": 1853,
+        "TP_new_new": 7817
+      },
+      "threshold": 0.6300000000000003
+    },
+    {
+      "accuracy": 0.8827222222222222,
+      "f05_new": 0.9329037512576055,
+      "precision_new": 0.9713181194662676,
+      "recall_new": 0.8054808686659772,
+      "recall_used": 0.9723889555822329,
+      "f1_macro": 0.882687201817429,
+      "expected_cost_3to1": 0.14283333333333334,
+      "confusion_matrix": {
+        "TN_used_used": 8100,
+        "FP_used_pred_new": 230,
+        "FN_new_pred_used": 1881,
+        "TP_new_new": 7789
+      },
+      "threshold": 0.6400000000000003
+    },
+    {
+      "accuracy": 0.8821666666666667,
+      "f05_new": 0.9332500360420972,
+      "precision_new": 0.9725804432202328,
+      "recall_new": 0.8033092037228542,
+      "recall_used": 0.9737094837935174,
+      "f1_macro": 0.8821238641681961,
+      "expected_cost_3to1": 0.14216666666666666,
+      "confusion_matrix": {
+        "TN_used_used": 8111,
+        "FP_used_pred_new": 219,
+        "FN_new_pred_used": 1902,
+        "TP_new_new": 7768
+      },
+      "threshold": 0.6500000000000004
+    },
+    {
+      "accuracy": 0.8803333333333333,
+      "f05_new": 0.9326574945691528,
+      "precision_new": 0.9732997481108312,
+      "recall_new": 0.7991726990692865,
+      "recall_used": 0.9745498199279712,
+      "f1_macro": 0.8802771300971846,
+      "expected_cost_3to1": 0.14322222222222222,
+      "confusion_matrix": {
+        "TN_used_used": 8118,
+        "FP_used_pred_new": 212,
+        "FN_new_pred_used": 1942,
+        "TP_new_new": 7728
+      },
+      "threshold": 0.6600000000000004
+    },
+    {
+      "accuracy": 0.8781111111111111,
+      "f05_new": 0.9316649692031621,
+      "precision_new": 0.9736441966548404,
+      "recall_new": 0.7946225439503619,
+      "recall_used": 0.9750300120048019,
+      "f1_macro": 0.8780388965866567,
+      "expected_cost_3to1": 0.145,
+      "confusion_matrix": {
+        "TN_used_used": 8122,
+        "FP_used_pred_new": 208,
+        "FN_new_pred_used": 1986,
+        "TP_new_new": 7684
+      },
+      "threshold": 0.6700000000000004
+    },
+    {
+      "accuracy": 0.8757777777777778,
+      "f05_new": 0.9306604923226908,
+      "precision_new": 0.9741071428571428,
+      "recall_new": 0.7897621509824199,
+      "recall_used": 0.9756302521008403,
+      "f1_macro": 0.8756856547089371,
+      "expected_cost_3to1": 0.14677777777777778,
+      "confusion_matrix": {
+        "TN_used_used": 8127,
+        "FP_used_pred_new": 203,
+        "FN_new_pred_used": 2033,
+        "TP_new_new": 7637
+      },
+      "threshold": 0.6800000000000004
+    },
+    {
+      "accuracy": 0.8746666666666667,
+      "f05_new": 0.930514112410116,
+      "precision_new": 0.9750128139415685,
+      "recall_new": 0.7868665977249224,
+      "recall_used": 0.9765906362545018,
+      "f1_macro": 0.874559548264122,
+      "expected_cost_3to1": 0.147,
+      "confusion_matrix": {
+        "TN_used_used": 8135,
+        "FP_used_pred_new": 195,
+        "FN_new_pred_used": 2061,
+        "TP_new_new": 7609
+      },
+      "threshold": 0.6900000000000004
+    },
+    {
+      "accuracy": 0.8720555555555556,
+      "f05_new": 0.9295771181017083,
+      "precision_new": 0.9759658870655123,
+      "recall_new": 0.7810754912099276,
+      "recall_used": 0.977671068427371,
+      "f1_macro": 0.871917479040113,
+      "expected_cost_3to1": 0.1486111111111111,
+      "confusion_matrix": {
+        "TN_used_used": 8144,
+        "FP_used_pred_new": 186,
+        "FN_new_pred_used": 2117,
+        "TP_new_new": 7553
+      },
+      "threshold": 0.7000000000000004
+    }
+  ]
+}
