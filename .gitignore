@@ -35,3 +35,9 @@ Thumbs.db
 
 # --- Cowork local outputs ---
 local_*/
+
+# --- Notas internas (no commitear) ---
+DEFENSE.md
+
+# --- Logs de runs locales ---
+logs/
