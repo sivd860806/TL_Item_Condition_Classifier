@@ -290,6 +290,5 @@ Detalle: [`reports/ablation_listing_type.md`](reports/ablation_listing_type.md)
 
 ## Autor
 
-Sergio Iván Villamizar Delgado — AI Manager @ Dichter & Neira / Director
-Engineering & MBA programs @ Universidad EAN. PhD en Ingeniería Eléctrica
+Sergio Iván Villamizar Delgado — AI Manager @ Dichter & Neira. PhD en Ingeniería Eléctrica
 (análisis de datos), Universidad Nacional de Colombia.
